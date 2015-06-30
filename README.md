@@ -17,3 +17,9 @@
    - Ensure actively held locks are released on exceptional conditions
    - Use a correct form of the double-checked locking idiom
    - Avoid client-side locking when using classes that do not commit to their locking strategy.
+  
+4. Visibility and Atomicity (VNA)
+  - Ensure visibility when accessing shared primitive variables.
+  - Ensure that calls to chained methods are atomic.
+  - Ensure visibility of shared references to immutable objects.
+   
