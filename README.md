@@ -22,4 +22,13 @@
   - Ensure visibility when accessing shared primitive variables.
   - Ensure that calls to chained methods are atomic.
   - Ensure visibility of shared references to immutable objects.
+  
+SPRING SECURITY ISSUES:
+
+Overview:
+
+1. AbstractSecurityInterceptor uses AuthenticaionManager
+2. FilterSecurityInterceptor secures FilterInvocation
+3. MethodSecurityInterceptor secures MethodInvocation
+4. AccessDecisionManager 
    
