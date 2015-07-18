@@ -31,4 +31,19 @@ Overview:
 2. FilterSecurityInterceptor secures FilterInvocation
 3. MethodSecurityInterceptor secures MethodInvocation
 4. AccessDecisionManager 
+
+Defensive programming:
+
+1. Minimize the scope of your variables:
+
+Scope minimization helps developers avoid common programming errors, improves code readability by connecting the declaration and actual use of a variable, and improves maintainability because unused variables are more easily detected and removed.
+
+2. Write  garbage collection friendly code.
+3. Try to gracefully recover from system errors.
+4. Use conservative file naming conventions.
+
+
+
+
+
    
