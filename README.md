@@ -42,6 +42,10 @@ Scope minimization helps developers avoid common programming errors, improves co
 3. Try to gracefully recover from system errors.
 4. Use conservative file naming conventions.
 
+Oracl GC vs. Azul's GC 
+
+
+
 
 
 
