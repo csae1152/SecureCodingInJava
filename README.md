@@ -42,7 +42,9 @@ Scope minimization helps developers avoid common programming errors, improves co
 3. Try to gracefully recover from system errors.
 4. Use conservative file naming conventions.
 
-Oracl GC vs. Azul's GC 
+Security issues within Docker.
+
+Docker is a new way of deploying your applicaitons.
 
 
 
