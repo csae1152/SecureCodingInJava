@@ -42,9 +42,9 @@ Scope minimization helps developers avoid common programming errors, improves co
 3. Try to gracefully recover from system errors.
 4. Use conservative file naming conventions.
 
-Security issues within Docker.
+Thread API's:
 
-Docker is a new way of deploying your applicaitons.
+Each single thread in Java is assigned to a thread group upon the thread's creation. These groups are implemented by the java.lang.ThreadGroup class. When the thread group name is not specified explicitly, the main default group is assigned by the Java Virtual Machine (JVM) [Java Tutorials]. The convenience methods of the ThreadGroup class can be used to operate on all threads belonging to a thread group at once. For instance, the ThreadGroup.interrupt() method interrupts all threads in the thread group. Thread groups also help reinforce layered security by confining threads into groups so that they avoid interference with threads in other groups
 
 
 
