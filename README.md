@@ -50,7 +50,7 @@ DateTime API and Threads... Will Java 8 change this issue ?
 
 Well, let's say Java 8 is a really big approach into the right direction.
 
-Java's new DateTime API.
+
 
 
 
