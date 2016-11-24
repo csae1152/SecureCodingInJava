@@ -56,6 +56,8 @@ Use of the Execute Work-Around-Pattern
 
 One scenario to use the Execute Work-Around-Pattern is for I/O operations.
 
+You can close I/O streams with this pattern.
+
 
 
 
