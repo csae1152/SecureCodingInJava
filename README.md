@@ -58,6 +58,8 @@ One scenario to use the Execute Work-Around-Pattern is for I/O operations.
 
 You can close I/O streams with this pattern.
 
+Handling null errors with Java 8 and the Optional class.
+
 
 
 
