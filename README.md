@@ -62,6 +62,8 @@ Handling null errors with Java 8 and the Optional class.
 
 Optional.isEmpty();
 
+Can you use Optional class also with primtive datatypes?
+
 
 
 
