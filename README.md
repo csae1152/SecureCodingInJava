@@ -64,6 +64,10 @@ Optional.isEmpty();
 
 Can you use Optional class also with primtive datatypes?
 
+Avoid Large Objects
+
+The allocation of large objects is expensive, in part because the cost to initialize their fields is proportional to their size. Additionally, frequent allocation of large objects of different sizes can cause fragmentation issues or compacting collect operations.
+
 
 
 
