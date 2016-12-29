@@ -74,6 +74,8 @@ The GC can be explicitly invoked by calling the System.gc() method. Even though 
 Irresponsible use of this feature can severely degrade system performance by triggering garbage collection at inopportune moments rather than waiting until ripe periods when it is safe to garbage-collect without significant interruption of the program's execution.
 In the Java Hotspot VM (default since JDK 1.2), System.gc() forces an explicit garbage collection. Such calls can be buried deep within libraries, so they may be difficult to trace. To ignore the call in such cases, use the flag -XX:+DisableExplicitGC. To avoid long pauses while performing a full garbage collection, a less demanding concurrent cycle may be invoked by specifying the flag -XX:ExplicitGCInvokedConcurrent.
 
+Reflection and secure coding - An issue that my occure...
+
 
 
 
