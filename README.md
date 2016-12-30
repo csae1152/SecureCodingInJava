@@ -77,6 +77,16 @@ In the Java Hotspot VM (default since JDK 1.2), System.gc() forces an explicit g
 What is a Memory Leak?
 ======================
 
+Imagin you have an object A and an object B.
+
+A extends B.
+
+Lifetime of B is over.
+
+But A is still alive and references B.
+
+This are the ingredients for a Memory leak.
+
 
 
 
