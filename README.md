@@ -87,6 +87,8 @@ But A is still alive and references B.
 
 This are the ingredients for a Memory leak.
 
+Strings and Memory leaks.
+
 
 
 
