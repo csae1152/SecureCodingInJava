@@ -89,6 +89,14 @@ This are the ingredients for a Memory leak.
 
 Strings and Memory leaks.
 
+Don't do this:
+
+String myName = new String("Helmut");
+
+You should do it like this:
+
+String myName = "Helmut";
+
 
 
 
