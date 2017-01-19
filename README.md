@@ -77,7 +77,7 @@ In the Java Hotspot VM (default since JDK 1.2), System.gc() forces an explicit g
 What is a Memory Leak?
 ======================
 
-Imagin you have an object A and an object B.
+Imagine you have an object A and an object B.
 
 A extends B.
 
@@ -96,6 +96,8 @@ String myName = new String("Helmut");
 You should do it like this:
 
 String myName = "Helmut";
+
+Now, no new String object is created.
 
 
 
