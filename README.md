@@ -99,6 +99,8 @@ String myName = "Helmut";
 
 Now, no new String object is created.
 
+And you don't can create a memory leak.
+
 
 
 
