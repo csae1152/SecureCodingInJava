@@ -101,6 +101,8 @@ Now, no new String object is created.
 
 And you don't can create a memory leak.
 
+Static polymorphism and security.
+
 
 
 
