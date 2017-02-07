@@ -103,6 +103,8 @@ And you don't can create a memory leak.
 
 Static polymorphism and security.
 
+Java 8 Streams always create an new object.
+
 
 
 
