@@ -105,6 +105,8 @@ Static polymorphism and security.
 
 Java 8 Streams always create an new object.
 
+It's very important for working with streams.
+
 
 
 
