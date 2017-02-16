@@ -109,6 +109,11 @@ It's very important for working with streams.
 
 Mixing generically typed code with raw typed code is one common source of heap pollution. Generic types were unavailable prior to Java 5, so popular interfaces such as the Java Collection Framework relied on raw types. Mixing generically typed code with raw typed code allowed developers to preserve compatibility between nongeneric legacy code and newer generic code but also gave rise to heap pollution. Heap pollution can occur if the program performs some operation involving a raw type that would give rise to a compile-time unchecked warning.
 
+Heap pollution explained
+
+
+
+
 
 
 
