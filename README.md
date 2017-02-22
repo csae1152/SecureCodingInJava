@@ -111,6 +111,10 @@ Mixing generically typed code with raw typed code is one common source of heap p
 
 Heap pollution explained
 
+Let's take an example:
+
+Working with StringBuilder.
+
 
 
 
