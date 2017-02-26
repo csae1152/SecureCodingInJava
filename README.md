@@ -115,6 +115,10 @@ Let's take an example:
 
 Working with StringBuilder.
 
+Java 8 and secure coding.
+
+Are Streams safe?
+
 
 
 
