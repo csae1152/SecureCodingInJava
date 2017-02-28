@@ -119,6 +119,8 @@ Java 8 and secure coding.
 
 Are Streams safe?
 
+Yes, Java 8 Streams are threadsafe.
+
 
 
 
