@@ -121,6 +121,8 @@ Are Streams safe?
 
 Yes, Java 8 Streams are threadsafe.
 
+If you listen to people from Oracle talking about design choices behind Java 8, you will often hear that parallelism was the main motivation. Parallelization was the main driving force behind lambdas, stream API and others. Let's take a look at an example of stream API.
+
 
 
 
