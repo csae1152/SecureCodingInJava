@@ -123,6 +123,8 @@ Yes, Java 8 Streams are threadsafe.
 
 If you listen to people from Oracle talking about design choices behind Java 8, you will often hear that parallelism was the main motivation. Parallelization was the main driving force behind lambdas, stream API and others. Let's take a look at an example of stream API.
 
+There are only two options how to make sure that such thing will never happen. The first is to ensure that all tasks submitted to the common fork-join pool will not get stuck and will finish in a reasonable time. But it's easier said than done, especially in complex applications. The other option is to not use parallel streams and wait until Oracle allows us to specify the thread pool to be used for parallel streams.
+
 
 
 
