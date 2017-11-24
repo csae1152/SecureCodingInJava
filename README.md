@@ -148,6 +148,34 @@ It is well known that dynamically created SQL statements including untrusted inp
 Deserialization of untrusted data
 =================================
 
+Description
+
+Data which is untrusted cannot be trusted to be well formed. Malformed data or unexpected data could be used to abuse application logic, deny service, or execute arbitrary code, when deserialized.
+
+Consequences
+
+Availability: The logic of deserialization could be abused to create recursive object graphs or never provide data expected to terminate reading.
+Authorization: Potentially code could make assumptions that information in the deserialized object about the data is valid. Functions which make this dangerous assumption could be exploited.
+Access control (instruction processing): malicious objects can abuse the logic of custom deserializers in order to affect code execution.
+Exposure period
+
+Requirements specification: A deserialization library could be used which provides a cryptographic framework to seal serialized data.
+Implementation: Not using the safe deserialization/serializing data features of a language can create data integrity problems.
+Implementation: Not using the protection accessor functions of an object can cause data integrity problems
+Implementation: Not protecting your objects from default overloaded functions - which may provide for raw output streams of objects - may cause data confidentiality problems.
+Implementation: Not making fields transient can often cause data confidentiality problems.
+Platform
+
+It is often convenient to serialize objects for convenient communication or to save them for later use. However, deserialized data or code can often be modified without using the provided accessor functions if it does not use cryptography to protect itself. Furthermore, any cryptography would still be client-side security - which is of course a dangerous security assumption.
+
+An attempt to serialize and then deserialize a class containing transient fields will result in NULLs where the non-transient data should be. This is an excellent way to prevent time, environment-based, or sensitive variables from being carried over and used improperly.
+
+Risk Factors
+
+Does the deserialization take place before authentication?
+Does the deserialization limit which types can be deserialized?
+Does the deserialization host have types available which can be repurposed towards malicious ends? Sometimes, these types are called "gadgets", considering their similarity to abusable bits of code that already exist in machine code in Return-Oriented-Programming attacks.
+
 
 
 
