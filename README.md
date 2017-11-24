@@ -145,6 +145,9 @@ Use well-tested libraries instead of ad hoc code. There are many libraries for c
 Guideline 3-2 / INJECT-2: Avoid dynamic SQL
 It is well known that dynamically created SQL statements including untrusted input are subject to command injection. This often takes the form of supplying an input containing a quote character (') followed by SQL. Avoid dynamic SQL.
 
+Deserialization of untrusted data
+=================================
+
 
 
 
