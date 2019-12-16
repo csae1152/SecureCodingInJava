@@ -13,7 +13,7 @@
    - Use the stricftp
   
 3. Locking
-   - Do not synchronize on the class object returned by getClass()
+   - Don't synchronize on the class object returned by getClass()
    - Ensure actively held locks are released on exceptional conditions
    - Use a correct form of the double-checked locking idiom
    - Avoid client-side locking when using classes that do not commit to their locking strategy.
